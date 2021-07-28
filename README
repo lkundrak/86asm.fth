@@ -1,0 +1,29 @@
+86ASM.FTH - Simple FORTH assembler for Intel 8086
+=================================================
+
+The 86ASM.FTH is a FORTH package providing an assembler for the Intel 8086
+processor. It provides words corresponding to the human readable mnemonics
+of the instructions and operands that append corresponding machine code to
+the dictionary.
+
+It has been tested with GForth and Open Firmware. It aims to be as simple
+as possible and uses no fancy features, hopefully being portable to very
+limited FORTH implementations.
+
+Note that this is the first release of 86ASM.FTH. As of this moment, it has
+seen little practical use and its actual utility could be limited.
+
+Contents of the kit:
+
+  86asm.fth	The actual code
+  86asm.pdf	Programmer's manual formatted for printing (Letter)
+  86asm-a4.pdf	Programmer's manual formatted for printing (A4 format)
+  86asm.me	Source to the programmer's manual
+  build-doc.sh	Script that builds the printable manuals
+  doc.pl	Utility that regenerates the examples in printable manual,
+		used by build-doc.sh
+  gpl-2.0.txt   GNU General Public License, applies to 86asm.fth
+  fdl-1.1.txt   GNU Free Documentation License, applies to the manual
+
+--
+Lubomir Rintel <lkundrak@v3.sk>
